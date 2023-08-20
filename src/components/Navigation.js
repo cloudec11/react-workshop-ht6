@@ -1,8 +1,11 @@
-// import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className='navbar'>
+    <div className="navbar">
+      <Link className="navbar-link" to="/Home">
+        Home
+      </Link>
     </div>
   );
 };
