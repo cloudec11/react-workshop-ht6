@@ -1,38 +1,178 @@
+/* COLOURS */
+
+/*
+light blue-green: #2ad8d1
+dark purple: #1b193f
+*/
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Karla&family=Unica+One&display=swap');
+
+/* APP */
+
 .App {
-  text-align: center;
+  height: 100vh;
+  background-color: #1b193f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAVIGATION */
+
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  background-color: #2ad8d1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-link {
+  color: #1b193f;
+  font-family: 'Unica One', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* PAGES */
+
+.Home, .Projects, .Contact {
+  background-color: #1b193f;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Home {
+  padding: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* HOME */
+
+.headshot {
+  width: 12rem;
+  border-radius: 6rem;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  color: #fff;
+  font-family: Karla, sans-serif;
+}
+
+.name {
+  color: #fff;
+  font-family: 'Unica One', sans-serif;
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  width: 750px;
+  background-color: #fff;
+  border-radius: 1rem;
+  color:#1b193f;
+  font-family: Karla, sans-serif;
+  padding: 2rem;
+}
+
+/* CARD */
+
+.card {
+  width: 300px;
+  border-radius: 25px;
+  background-color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  font-family: 'Unica One', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.card-body {
+  font-family: Karla, sans-serif;
+}
+
+.card-link {
+  background-color: #2ad8d1;
+  border-radius: 10px;
+  color: #1b193f;
+  font-family: Karla, sans-serif;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.card-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* PROJECTS */
+
+.card-row {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+/* CONTACT */
+
+.contact-title {
+  color: #fff;
+  font-family: 'Unica One', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  width: 75vw;
+  border-radius: 25px;
+  border-style: none;
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.form-textarea {
+  height: 10rem;
+}
+
+.form-submit {
+  width: 100px;
+  background-color: #2ad8d1;
+  border-radius: 25px;
+  border-style: none;
+  color: #1b193f;
+  font-family: 'Unica One', sans-serif;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.form-submit:hover {
+  color: #fff;
+  cursor: pointer;
 }
