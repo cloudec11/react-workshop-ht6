@@ -2,6 +2,8 @@
 
 Workshop @ Hack the 6ix 2023
 
+[Slideshow](https://docs.google.com/presentation/d/e/2PACX-1vShryHWf99RJhrW0zrSOQT2vt9SbBA2PWFqWGUrOn5_lIx0LgWcRm0PGqpTCDBjsYRiiwlb1ycqhoN_/pub?start=false&loop=true&delayms=3000)
+
 ## Description
 
 You'll follow along and build your own portfolios that showcase your projects in under an hour. The portfolio will include a short intro section, a projects section, and a contact form. The site will be built with React, you'll push your code to GitHub, and deploy your site with Vercel.
